@@ -1,0 +1,58 @@
+
+.note-tile:hover{
+    background: #9fe
+}
+input{
+    display: block;
+    padding: 3px;
+    margin:  10px;
+    height: 30px;
+}
+
+.note-tile-focus{
+    background: #474
+}
+textarea{
+    padding: 3px;
+    margin: 10px;
+    height: 93%;
+    display: block;
+}
+.note-tile p{
+    margin: 0;
+}
+.focus .title{
+    font-weight: 800
+}
+.focus{
+    position: absolute;
+    margin: auto;
+    right: 320px;
+    top: 0;
+    height: 80%;
+    background: #eee;
+    border: 1px dashed #999;
+    
+    margin-top: 10px;
+}
+
+
+
+#notes-demo{
+    width: 300px;
+    border: 1px dashed #435;
+    overflow-y: auto;
+    float: right;
+    height: 100%;
+}
+
+.note-tile{
+    border: 1px solid #ddd;
+    width: 90%; 
+    margin: 2px;
+    overflow: hidden;
+    transition: 0.1s;
+    padding: 5px;
+    height: 40px;;
+    cursor: pointer;
+}
